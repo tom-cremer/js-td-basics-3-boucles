@@ -28,9 +28,3 @@ Source principale : "The complete javascript course" par _Jonas Schmedtmann_ (20
 - Prépa 2 : Plusieurs tables de multiplication
 - Prépa 3 : FizzBuzz
 - Prépa 4 : Le devin
-
-
-
-- 018 (2:10) Coding Challenge 2.mp4 : Deuxième challenge
-- 019 (8:17) Coding Challenge 2 Solution.mp4 : Solution
-
