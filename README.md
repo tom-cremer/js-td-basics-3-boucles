@@ -11,9 +11,9 @@
 - FOR ou WHILE ?
 - Les boucles imbriquées
 
-#### Vidéos
+#### Supports
 
-- 029-1 (…) Loops and Iteration.mp4 : Les boucles et itérations
+- 029-1 Les boucles et itérations
 
 #### Prépas
 
