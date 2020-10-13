@@ -8,12 +8,29 @@
 
 - La boucle FOR
 - La boucle WHILE (+ DO / WHILE)
+- Erreurs fréquentes
 - FOR ou WHILE ?
 - Les boucles imbriquées
 
 #### Supports
 
 - 029-1 Les boucles et itérations
+
+#### Exercices
+
+1. b01-for-e1.js
+2. b01-for-e2.js
+3. b01-for-e3.js
+4. b01-for-e4.js
+5. b01-for-e5.js
+6. b02-while-e1.js
+7. b02-while-e2.js
+8. b02-while-e3.js
+9. b02-while-e4.js
+10. b02-while-e5.js
+11. b03-erreurs-e1.js
+12. b03-erreurs-e2.js
+13. b05-boucles-imbriquées.js
 
 #### Prépas
 
