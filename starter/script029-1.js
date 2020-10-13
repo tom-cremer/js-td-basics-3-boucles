@@ -18,7 +18,7 @@ for (initialisation; condition; étape) {
 /*
 EXEMPLE 1 :
 Affichez les nombres de 1 à 10
-- 1°) sans utiliser de boucle : écrivez toutes les instri-uctions à la main, une par une
+- 1°) sans utiliser de boucle : écrivez toutes les instructions à la main, une par une
 - 2°) en utilisant la boucle FOR
 */
 
