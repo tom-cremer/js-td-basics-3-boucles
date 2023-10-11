@@ -3,16 +3,14 @@
 * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
 */
 
-/* 6.2. Boucle WHILE
-  La boucle `while` permet de répéter des instructions tant qu'une condition est vérifiée.
-  Syntaxe :
-    while (condition) {
-      // instructions exécutées tant que la condition est vérifiée
-    }
-*/
-
 /*
-EXEMPLE 3 : 
+EXEMPLE 3 :
 - Affichez les nombres pairs entre 0 et 20
 */
+
+// 1. Initialisez une variable nommée 'nombre' à 0 pour représenter les nombres que vous allez afficher.
+
+// 2. Utilisez une boucle 'while' pour répéter les instructions suivantes tant que 'nombre' est inférieur ou égal à 20 :
+//    - Affichez 'nombre' dans la console si 'nombre' est un nombre pair.
+//    - Incrémentez 'nombre' pour passer au nombre suivant.
 

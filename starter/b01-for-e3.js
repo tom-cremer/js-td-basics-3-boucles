@@ -1,7 +1,7 @@
 /*****************************
-* BOUCLES ET ITÉRATIONS
-* BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
-*/
+ * BOUCLES ET ITÉRATIONS
+ * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
+ */
 
 /* 6.1. Boucle FOR
   Syntaxe :
@@ -18,6 +18,3 @@
 EXEMPLE 3 : 
 - Affichez les nombres pairs entre 0 et 20
 */
-
-
-

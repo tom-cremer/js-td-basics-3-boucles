@@ -1,7 +1,7 @@
 /*****************************
-* 6. BOUCLES ET ITÉRATIONS
-* BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
-*/
+ * 6. BOUCLES ET ITÉRATIONS
+ * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
+ */
 
 /* 6.2. Boucle WHILE
   La boucle `while` permet de répéter des instructions tant qu'une condition est vérifiée.
@@ -17,4 +17,3 @@ Affichez
 - les nombres de 1 à 5 à l'aide d'une boucle WHILE
 - Fin du programme
 */
-

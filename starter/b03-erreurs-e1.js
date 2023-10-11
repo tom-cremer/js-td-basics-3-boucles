@@ -3,14 +3,22 @@
 * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
 */
 
-/* 
+/*
   6.3. Erreurs fréquentes
 */
 
 /*
 EXEMPLE 1 : Boucle WHILE infinie
-- Écrivez la boucle `while` qui affiche les nombres de 1 à 5
-  en oubliant volontairement la ligne qui incrémente la variable `nombre`.
-- Que se passe-t-il lorsqu'on exécute ce code dans un navigateur ?
-*/
+- Vous devez écrire une boucle 'while' pour afficher les nombres de 1 à 5.
+- Assurez-vous d'initialiser une variable 'nombre' à 1 pour indiquer où commence la séquence.
+- Utilisez une condition pour vérifier que 'nombre' est inférieur ou égal à 5, ce qui indique quand s'arrêter.
+- Dans le corps de la boucle, affichez la valeur de 'nombre' dans la console.
+- N'oubliez pas d'incrémenter la variable 'nombre' à chaque itération pour éviter une boucle infinie.
 
+CORRECTION :
+- Initialisez 'nombre' à 1.
+- Utilisez 'while' avec une condition 'nombre <= 5'.
+- Dans la boucle, affichez 'nombre' dans la console.
+- Incrémentez 'nombre' à chaque itération pour éviter une boucle infinie.
+
+*/

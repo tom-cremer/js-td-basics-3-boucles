@@ -3,20 +3,20 @@
 * BOUCLE = STRUCTURE DE CONTRÔLE N° 2 = MOYEN DE RÉPÉTER DES INSTRUCTIONS
 */
 
-/* 6.2. Boucle WHILE
-  La boucle `while` permet de répéter des instructions tant qu'une condition est vérifiée.
-  Syntaxe :
-    while (condition) {
-      // instructions exécutées tant que la condition est vérifiée
-    }
+/*
+Affichez les 10 premières valeurs de la table de multiplication choisie par l'utilisateur
+
+1. Demandez à l'utilisateur de choisir la table de multiplication qu'il souhaite afficher.
+Vous pouvez utiliser la fonction 'prompt' pour obtenir cette information.
+
+2. Une fois que l'utilisateur a choisi une table de multiplication (par exemple, 7), utilisez une boucle 'while' pour générer les 10 premières valeurs de cette table.
+- Initialisez une variable pour représenter le compteur, par exemple 'i', à 1.
+- À chaque itération, affichez le calcul et le résultat (par exemple, 7 * 1 = 7) dans la console.
+- Incrémentez le compteur 'i' pour passer à la valeur suivante (2, 3, ...).
+
+Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 10 premières valeurs de la table de multiplication.
+
+// 3. Utilisez un titre approprié pour informer l'utilisateur de ce qui est affiché, par exemple : "Voici les 10 premières valeurs de la table de multiplication par 7."
 */
 
-/* EXEMPLE 4 :
-- Affichez les 10 premières valeurs de la table de multiplication choisie par l'utilisateur
-  1. Demandez à l'utilisateur de choisir la table de multiplication qu'il souhaite afficher :
-    "Je voudrais afficher les 10 premières valeurs de la table de multiplication par"
-  2. Affichez le résultat avec :
-    - un titre : "Voici les 10 premières valeurs de la table de multiplication par …"
-    - pour chaque valeur, le calcul et le résultat (par exemple : 1 * 7 = 7)
-*/
 
