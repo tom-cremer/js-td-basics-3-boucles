@@ -17,3 +17,9 @@
 /* EXEMPLE 5 : Boucler à l'envers
 - Affichez dans la console : "3, 2, 1, partez !"
 */
+
+// il est possible de faire plusieurs actions dans le for en les séparant par une "," (virgule) pareil pour les declarations de variables
+
+for (let i = 10, j = 0; i > -1; i--, j++){
+    console.log(i,j);
+}
