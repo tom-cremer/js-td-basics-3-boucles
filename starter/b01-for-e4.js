@@ -25,3 +25,16 @@
     - que se passe-t-il si vous avez déclaré i avec let ?
     - que se passe-t-il si vous déclarez i avec var ?
 */
+let tableUser;
+do {
+    tableUser = parseInt(prompt("Je voudrais afficher les 10 premières valeurs de la table de multiplication par "));
+}while (isNaN(tableUser));
+
+console.log(`Voici les 10 premières valeurs de la table de multiplication par ${tableUser}: `);
+
+for (let i = 0; i <=10; console.log(` ${i} * ${tableUser} = ${tableUser * i}`), i++){}
+
+
+
+
+
