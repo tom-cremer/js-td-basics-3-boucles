@@ -18,5 +18,14 @@ Pour chaque itération, assurez-vous de vous arrêter après avoir affiché les 
 
 // 3. Utilisez un titre approprié pour informer l'utilisateur de ce qui est affiché, par exemple : "Voici les 10 premières valeurs de la table de multiplication par 7."
 */
+let nombre;
+do {
+    nombre = parseInt(prompt("Entrez un nombre dont vous voulez les 10 premières valeurs de la table de multiplication: "));
+}while(isNaN(nombre));
 
+let i = 0;
+while(i <= 10){
+    console.log(` ${i} * ${tableUser} = ${tableUser * i}`);
+    i++;
+}
 

@@ -20,6 +20,4 @@
 
 // il est possible de faire plusieurs actions dans le for en les séparant par une "," (virgule) pareil pour les declarations de variables
 
-for (let i = 10, j = 0; i > -1; i--, j++){
-    console.log(i,j);
-}
+for (let i = 10, j = 0; i > -1; console.log(i,j), i--, j++){}
