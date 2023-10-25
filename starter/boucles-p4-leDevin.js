@@ -20,6 +20,66 @@ Ecrivez un programme qui va deviner le nombre auquel vous avez pensé (voir livr
 */
 // Écrivez le code JavaScript pour résoudre cet exercice en essayant de deviner le nombre auquel l'utilisateur pense.
 
+// recherche dichotomique !!!!
+// logarithme de n (log n) est le plus interessant!!!!
+
+
+let min = 1;
+let max = 10;
+const userNumber = parseInt(prompt(`Entrez un chiffre entre [${min} ; ${max}]: `));
+let guessedNumber = max / 2;
+
+while (true) {
+    console.log(guessedNumber)
+
+    if (isNaN(userNumber)) {
+        console.log("Ce n’est pas un nombre.");
+        break;
+    }
+    if (userNumber > max || userNumber < min) {
+        console.log(`Ce n’est pas entre [${min} ; ${max}].`);
+        break;
+    }
+    if (userNumber === guessedNumber) {
+        console.log(`J’ai trouvé! C’était ${guessedNumber}.`);
+        break;
+    }
+
+    if (userNumber > guessedNumber){
+        min = guessedNumber + 1;
+        guessedNumber = Math.ceil((max + min) / 2);
+    } else {
+        max = guessedNumber - 1;
+        guessedNumber = Math.floor((max + min) / 2);
+    }
+
+}
+
+
+/*
+const randomNumber = Math.floor(Math.random() * 10) + 1;
+let userNumber;
+
+while (true){
+    console.log(randomNumber);
+    userNumber  = parseInt(prompt("Entrer le nombre a deviner: "));
+
+    if (isNaN(userNumber)){
+        console.log("L'entree n'est pas un nombre");
+    } else if (randomNumber < userNumber){
+        console.log("C'est plus petit");
+    } else if (randomNumber > userNumber){
+        console.log("C'est plus élevée");
+    } else{
+        console.log("Bravo!! Vous avez trouver le nombre.");
+        break;
+    }
+
+}
+*/
+
+
+/*
 const min = 1; // Valeur minimale du nombre à deviner
 const max = 100; // Valeur maximale du nombre à deviner
 const numberToGuess = Math.floor(Math.random() * (max - min + 1)) + min; // Génère un nombre aléatoire entre min et max
@@ -39,3 +99,4 @@ while (true) {
         console.log('Le nombre que vous avez deviné est trop élevé.');
     }
 }
+*/
