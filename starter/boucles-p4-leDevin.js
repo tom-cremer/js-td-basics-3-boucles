@@ -19,3 +19,23 @@ Ecrivez un programme qui va deviner le nombre auquel vous avez pensé (voir livr
 	ces fonctions, y compris leurs paramètres et les valeurs qu'elles retournent.
 */
 // Écrivez le code JavaScript pour résoudre cet exercice en essayant de deviner le nombre auquel l'utilisateur pense.
+
+const min = 1; // Valeur minimale du nombre à deviner
+const max = 100; // Valeur maximale du nombre à deviner
+const numberToGuess = Math.floor(Math.random() * (max - min + 1)) + min; // Génère un nombre aléatoire entre min et max
+
+let attempts = 0; // Nombre de tentatives
+
+while (true) {
+    const userGuess = parseInt(prompt(`Devinez le nombre entre ${min} et ${max} :`));
+    attempts++;
+
+    if (userGuess === numberToGuess) {
+        console.log(`Bravo ! Vous avez deviné le nombre ${numberToGuess} en ${attempts} tentatives.`);
+        break;
+    } else if (userGuess < numberToGuess) {
+        console.log('Le nombre que vous avez deviné est trop bas.');
+    } else {
+        console.log('Le nombre que vous avez deviné est trop élevé.');
+    }
+}

@@ -25,7 +25,7 @@ do {
 
 let i = 0;
 while(i <= 10){
-    console.log(` ${i} * ${tableUser} = ${tableUser * i}`);
+    console.log(` ${i} * ${nombre} = ${nombre * i}`);
     i++;
 }
 

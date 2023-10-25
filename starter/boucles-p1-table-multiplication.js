@@ -18,3 +18,17 @@ N.B. Faites-le de deux manières différentes :
 // avec WHILE
 // Répétez le même processus avec une boucle WHILE, en demandant à nouveau la table de multiplication et le nombre de valeurs
 
+let nombre = parseInt(prompt("Nombre de la table de multiplication: "));
+let nombreDiteration = parseInt(prompt("Nombre de valeurs voulue; "));
+
+for (let i = 0; i <= nombreDiteration; i++) {
+    console.log(`${i} * ${nombre} = ${i * nombre}`);
+}
+
+nombre = parseInt(prompt("Nombre de la table de multiplication: "));
+nombreDiteration = parseInt(prompt("Nombre de valeurs voulue; "));
+let j = 0;
+
+while (j <= nombreDiteration) {
+    console.log(`${j} * ${nombre} = ${j * nombre}`);
+}
